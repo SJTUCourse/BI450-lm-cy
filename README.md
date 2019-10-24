@@ -1,5 +1,5 @@
 # BI450-lm-cy
-Projects in Data Acquisition and Signal Processing in Biomedical Applications —— Meng Li &amp; Yu Chen.
+Projects in Data Acquisition and Signal Processing in Biomedical Applications —— Yu Chen &amp; Meng Li.
 
 
 **Information about THIS course**
