@@ -52,9 +52,11 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 * 用鼠标选择波形上某个数据点时，可显示该点对应的数值；
 
 **程序逻辑图**
+
 ![程序逻辑图](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%201/report/%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E5%9B%BE.png)
 
 **界面**
+
 ![界面](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%201/report/%E7%95%8C%E9%9D%A2.png)
 
 **Final Report** : 
