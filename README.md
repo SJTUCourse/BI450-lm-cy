@@ -88,6 +88,7 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 * 分析 USB-4704 的模拟输出功能可输出信号的频率范围，若输出信号在该范围外，会出现哪些问题，并探讨可能的解决方案;
 
 **Final Report** : 
+[项目二_YuChen_MengLi] (https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_YuChen_MengLi.pdf)
 
 ## Project 3
 **Assignments:**
