@@ -146,3 +146,40 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 [项目三_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%203/report/%E9%A1%B9%E7%9B%AE%E4%B8%89_YuCheng_MengLi.pdf)
 
 
+## Project 4
+**Assignments:**
+
+1、利用 DAQ Navi SDK 并结合 ELVIS II+，选择一门语言进行编程，程序需实现以下功能: 
+
+* 集成项目一、二和三的功能模块，形成一个统一界面供用户交互; 
+* 可独立完成模拟输入并显示、模拟输出和方波输出的功能;
+
+
+2、通过 ELVIS II+和 USB-4704 进行功能验证; 
+
+3、通过测试后，发布可执行文件，并在第三方 PC 上进行功能展示;
+
+4、项目报告包括以下内容: 
+
+* 程序开发逻辑; 
+* 总结测试中出现的问题及其解决方案; 
+* 界面使用说明(Readme);
+
+5、自行录制三分钟短片，介绍如何使用最终项目的开发程序;
+
+
+**程序逻辑图**
+
+![程序逻辑图]()
+
+**界面**
+
+![界面]()
+
+**Final Report** : 
+
+[项目四_YuChen_MengLi]()
+
+
+
+
