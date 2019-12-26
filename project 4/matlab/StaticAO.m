@@ -54,6 +54,7 @@ H5T.enum_insert(WaveStyle, 'Sine', 0);    %三种不同的波形
 H5T.enum_insert(WaveStyle, 'Sawtooth', 1);
 H5T.enum_insert(WaveStyle, 'Square', 2);
 H5T.enum_insert(WaveStyle, 'Level', 3);
+H5T.enum_insert(WaveStyle, 'Filesignal', 4);
 H5T.close(parent_id);
 
 errorCode = Automation.BDaq.ErrorCode.Success;
@@ -240,7 +241,10 @@ for i = 0:(oneWaveSamplesCount - 1)
                 end
            case 'Level'
                 waveBuffer.Set(i * channelCount + j - channelStart,...
-                    level);               
+                    level); 
+           case 'Filesignal'
+                waveBuffer.Set(i * channelCount + j - channelStart,...
+                    handles.filesignal(i+1)); 
         end
     end
 end
