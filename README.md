@@ -87,8 +87,21 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 * 如何针对不同频率的信号设置合适的周期输出点数，并分析设置周期输出点数时考虑的因素;
 * 分析 USB-4704 的模拟输出功能可输出信号的频率范围，若输出信号在该范围外，会出现哪些问题，并探讨可能的解决方案;
 
+
+**程序逻辑图**
+
+![程序逻辑图](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E5%9B%BE.png)
+
+**界面**
+
+![界面](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_%E7%95%8C%E9%9D%A2.png)
+
+
+
 **Final Report** : 
-[项目二_YuChen_MengLi] (https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_YuChen_MengLi.pdf)
+
+[项目二_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_YuChen_MengLi.pdf)
+
 
 ## Project 3
 **Assignments:**
