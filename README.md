@@ -3,7 +3,7 @@ Projects in Data Acquisition and Signal Processing in Biomedical Applications �
 
 **Video**
 
-[信号处理综合实验_项目展示_cylm]()
+[信号处理综合实验_项目展示_cylm](https://v.youku.com/v_show/id_XNDQ4NDQyNjc4MA==.html?spm=a2hbt.13141534.app.5~5~5!2~5~5~5!2~5~5!2~5!2~5!2~5~5~A)
 
 
 
