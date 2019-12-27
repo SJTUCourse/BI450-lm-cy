@@ -1,6 +1,11 @@
 # BI450-lm-cy
 Projects in Data Acquisition and Signal Processing in Biomedical Applications —— Yu Chen &amp; Meng Li.
 
+**Video**
+
+[信号处理综合实验_项目展示_cylm]()
+
+
 
 **Information about THIS course**
 
@@ -170,15 +175,16 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 
 **程序逻辑图**
 
-![程序逻辑图]()
+![程序逻辑图](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%204/report/%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E5%9B%BE.png)
 
 **界面**
 
-![界面]()
+![界面](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%204/report/%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E7%95%8C%E9%9D%A2.PNG)
 
 **Final Report** : 
 
 [项目四_YuChen_MengLi]()
+
 
 
 
