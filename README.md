@@ -95,17 +95,18 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 
 **程序逻辑图**
 
-![程序逻辑图](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E5%9B%BE.png)
+![程序逻辑图](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E5%9B%BE.png)
+
 
 **界面**
 
-![界面](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_%E7%95%8C%E9%9D%A2.png)
+![界面](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_%E7%95%8C%E9%9D%A2.png)
 
 
 
 **Final Report** : 
 
-[项目二_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_YuChen_MengLi.pdf)
+[项目二_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%202/report/%E9%A1%B9%E7%9B%AE%E4%BA%8C_YuChen_MengLi.pdf)
 
 
 ## Project 3
@@ -138,17 +139,17 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 
 **程序逻辑图**
 
-![程序逻辑图](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%203/report/%E9%A1%B9%E7%9B%AE%E4%B8%89_%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E5%9B%BE.png)
+![程序逻辑图](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%203/report/%E9%A1%B9%E7%9B%AE%E4%B8%89_%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E5%9B%BE.png)
 
 **界面**
 
-![界面](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%203/report/%E9%A1%B9%E7%9B%AE%E4%B8%89_%E7%95%8C%E9%9D%A2.png)
+![界面](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%203/report/%E9%A1%B9%E7%9B%AE%E4%B8%89_%E7%95%8C%E9%9D%A2.png)
 
 
 
 **Final Report** : 
 
-[项目三_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%203/report/%E9%A1%B9%E7%9B%AE%E4%B8%89_YuChen_MengLi.pdf)
+[项目三_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%203/report/%E9%A1%B9%E7%9B%AE%E4%B8%89_YuChen_MengLi.pdf)
 
 
 ## Project 4
@@ -175,15 +176,15 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 
 **程序逻辑图**
 
-![程序逻辑图](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%204/report/%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E5%9B%BE.png)
+![程序逻辑图](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%204/report/%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E7%A8%8B%E5%BA%8F%E9%80%BB%E8%BE%91%E5%9B%BE.png)
 
 **界面**
 
-![界面](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%204/report/%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E7%95%8C%E9%9D%A2.PNG)
+![界面](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%204/report/%E9%A1%B9%E7%9B%AE%E5%9B%9B_%E7%95%8C%E9%9D%A2.PNG)
 
 **Final Report** : 
 
-[项目四_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%204/report/%E9%A1%B9%E7%9B%AE%E5%9B%9B_YuChen_MengLi.pdf)
+[项目四_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/Project%204/report/%E9%A1%B9%E7%9B%AE%E5%9B%9B_YuChen_MengLi.pdf)
 
 
 
