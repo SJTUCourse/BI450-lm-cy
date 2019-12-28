@@ -148,7 +148,7 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 
 **Final Report** : 
 
-[项目三_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%203/report/%E9%A1%B9%E7%9B%AE%E4%B8%89_YuCheng_MengLi.pdf)
+[项目三_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%203/report/%E9%A1%B9%E7%9B%AE%E4%B8%89_YuChen_MengLi.pdf)
 
 
 ## Project 4
@@ -183,7 +183,7 @@ Website: [Data Acquisition and Signal Processing in Biomedical Applications](htt
 
 **Final Report** : 
 
-[项目四_YuChen_MengLi]()
+[项目四_YuChen_MengLi](https://github.com/SelinaLi11/BI450-lm-cy/blob/master/project%204/report/%E9%A1%B9%E7%9B%AE%E5%9B%9B_YuChen_MengLi.pdf)
 
 
 
