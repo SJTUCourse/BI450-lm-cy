@@ -22,7 +22,7 @@ function varargout = Static_AO(varargin)
 
 % Edit the above text to modify the response to help Static_AO
 
-% Last Modified by GUIDE v2.5 21-Nov-2019 16:11:29
+% Last Modified by GUIDE v2.5 19-Dec-2019 14:45:23
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -150,8 +150,11 @@ function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+
 stop(handles.AOtimer);
 delete(handles.AOtimer);
+
+
 
 % --- Executes on selection change in listbox1.
 function listbox1_Callback(hObject, eventdata, handles)
@@ -174,12 +177,15 @@ timeperpoint = (1/Wave_frequency) / oneWaveSamplesCount;
 wave_time = 0:timeperpoint:1/Wave_frequency - timeperpoint;
 amplitude = str2double(get(handles.edit3,'string'));
 offset = str2double(get(handles.edit4,'string'));
-wave_data = wave_simulate(wave_type,amplitude,offset,oneWaveSamplesCount);
+level = str2double(get(handles.edit6,'string'));
+wave_data = wave_simulate(wave_type,amplitude,offset,level,oneWaveSamplesCount);
+
 
 handles.samplescount = oneWaveSamplesCount;
 handles.wave_frequency = Wave_frequency;
 handles.amplitude = amplitude;
 handles.offset = offset;
+handles.level = level;
 handles.timeperpoint = timeperpoint;
 guidata(hObject,handles);
 
@@ -309,3 +315,73 @@ function edit5_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+
+
+
+function edit6_Callback(hObject, eventdata, handles)
+% hObject    handle to edit6 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit6 as text
+%        str2double(get(hObject,'String')) returns contents of edit6 as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit6_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit6 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+% --- Executes on button press in pushbutton3.
+function pushbutton3_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+[filename, pathname] = uigetfile( ...
+      {'*.csv'},'Pick a file');
+if filename ~= 0
+   AO_wavedata = csvread(filename);
+end
+
+Wave_frequency = str2double(get(handles.edit2,'string'));
+timeperpoint = (1/Wave_frequency) / length(AO_wavedata(1,:));
+
+handles.filesignal = AO_wavedata(1,:);
+handles.wave_type = 5;
+handles.samplescount = length(AO_wavedata(1,:));
+handles.timeperpoint = timeperpoint;
+handles.amplitude = 0;
+handles.offset = 0;
+handles.level = 0;
+guidata(hObject,handles);
+axes(handles.axes1);
+cla
+plot(AO_wavedata(2,:),AO_wavedata(1,:));
+axis([0 max(AO_wavedata(2,:)) 0-0.1 5+0.1])
+set(gca,'Ytick',[0 1 2 3 4 5]);
+grid on
+
+
+% --- Executes during object creation, after setting all properties.
+function pushbutton3_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to pushbutton3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+
+% --- Executes during object deletion, before destroying properties.
+function figure1_DeleteFcn(hObject, eventdata, handles)
+% hObject    handle to figure1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+h = gcf;
+prj4;
+close(h);
